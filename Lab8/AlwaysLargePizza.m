@@ -19,7 +19,7 @@
 }
 
 - (void)kitchenDidMakePizza:(Pizza *)pizza {
-    NSLog(@"We can make it! Free upgraded size!");
+    NSLog(@"AlwaysLargePizza: We can make it! Free upgraded size!");
 }
 
 

@@ -22,8 +22,8 @@
             return pizza;
         }
     } else {
-        Pizza *pizza = [[Pizza alloc]initWithSize:size toppings:@[@"Can't make pizza with anchovies!"]];
-        return pizza;
+        NSLog(@"NoAnchovies: Can't make pizza with anchovies!");
+        return nil;
     }
 }
 

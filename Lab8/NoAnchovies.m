@@ -23,7 +23,7 @@
 }
 
 - (void)kitchenDidMakePizza:(Pizza *)pizza {
-    NSLog(@"We can make it!");
+    NSLog(@"NoAnchovies: We can make it!");
 }
 
 @end

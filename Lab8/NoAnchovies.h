@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "KitchenDelegation.h"
+#import "DeliveryService.h"
 
 @interface NoAnchovies : NSObject <KitchenDelegate>
 

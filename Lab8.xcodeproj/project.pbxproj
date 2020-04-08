@@ -12,6 +12,8 @@
 		046926CA243DE4D8004DD83A /* NoAnchovies.m in Sources */ = {isa = PBXBuildFile; fileRef = 046926C9243DE4D8004DD83A /* NoAnchovies.m */; };
 		046926CE243DEE62004DD83A /* AlwaysLargePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 046926CD243DEE62004DD83A /* AlwaysLargePizza.m */; };
 		046926D1243DEF61004DD83A /* KitchenDelegation.m in Sources */ = {isa = PBXBuildFile; fileRef = 046926D0243DEF61004DD83A /* KitchenDelegation.m */; };
+		046926D4243DFE60004DD83A /* DeliveryService.m in Sources */ = {isa = PBXBuildFile; fileRef = 046926D3243DFE60004DD83A /* DeliveryService.m */; };
+		046926D7243DFE6E004DD83A /* DeliveryCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 046926D6243DFE6E004DD83A /* DeliveryCar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +40,10 @@
 		046926CD243DEE62004DD83A /* AlwaysLargePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlwaysLargePizza.m; sourceTree = "<group>"; };
 		046926CF243DEF61004DD83A /* KitchenDelegation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KitchenDelegation.h; sourceTree = "<group>"; };
 		046926D0243DEF61004DD83A /* KitchenDelegation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KitchenDelegation.m; sourceTree = "<group>"; };
+		046926D2243DFE60004DD83A /* DeliveryService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryService.h; sourceTree = "<group>"; };
+		046926D3243DFE60004DD83A /* DeliveryService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryService.m; sourceTree = "<group>"; };
+		046926D5243DFE6E004DD83A /* DeliveryCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryCar.h; sourceTree = "<group>"; };
+		046926D6243DFE6E004DD83A /* DeliveryCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryCar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,10 @@
 				046926CD243DEE62004DD83A /* AlwaysLargePizza.m */,
 				046926CF243DEF61004DD83A /* KitchenDelegation.h */,
 				046926D0243DEF61004DD83A /* KitchenDelegation.m */,
+				046926D2243DFE60004DD83A /* DeliveryService.h */,
+				046926D3243DFE60004DD83A /* DeliveryService.m */,
+				046926D5243DFE6E004DD83A /* DeliveryCar.h */,
+				046926D6243DFE6E004DD83A /* DeliveryCar.m */,
 			);
 			path = Lab8;
 			sourceTree = "<group>";
@@ -141,11 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046926D7243DFE6E004DD83A /* DeliveryCar.m in Sources */,
 				0469265A2438A8F5004DD83A /* Pizza.m in Sources */,
 				046926CE243DEE62004DD83A /* AlwaysLargePizza.m in Sources */,
 				046926D1243DEF61004DD83A /* KitchenDelegation.m in Sources */,
 				046926CA243DE4D8004DD83A /* NoAnchovies.m in Sources */,
 				046926562438A49B004DD83A /* main.m in Sources */,
+				046926D4243DFE60004DD83A /* DeliveryService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

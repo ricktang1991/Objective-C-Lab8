@@ -1,5 +1,5 @@
 //
-//  AlwaysLargePizza.h
+//  DeliveryCar.h
 //  Lab8
 //
 //  Created by 桑染 on 2020-04-08.
@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KitchenDelegation.h"
-#import "DeliveryService.h"
+#import "Pizza.h"
 
-@interface AlwaysLargePizza : NSObject <KitchenDelegate>
+@interface DeliveryCar : NSObject
+
+- (void)deliverPizza:(Pizza *)pizza;
 
 @end
 
