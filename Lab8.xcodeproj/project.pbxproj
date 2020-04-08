@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		046926562438A49B004DD83A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046926542438A49B004DD83A /* main.m */; };
-		046926572438A49B004DD83A /* Kitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = 046926552438A49B004DD83A /* Kitchen.m */; };
 		0469265A2438A8F5004DD83A /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 046926592438A8F5004DD83A /* Pizza.m */; };
+		046926CA243DE4D8004DD83A /* NoAnchovies.m in Sources */ = {isa = PBXBuildFile; fileRef = 046926C9243DE4D8004DD83A /* NoAnchovies.m */; };
+		046926CE243DEE62004DD83A /* AlwaysLargePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 046926CD243DEE62004DD83A /* AlwaysLargePizza.m */; };
+		046926D1243DEF61004DD83A /* KitchenDelegation.m in Sources */ = {isa = PBXBuildFile; fileRef = 046926D0243DEF61004DD83A /* KitchenDelegation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,12 +28,16 @@
 
 /* Begin PBXFileReference section */
 		046926482438A468004DD83A /* Lab8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab8; sourceTree = BUILT_PRODUCTS_DIR; };
-		046926522438A49A004DD83A /* Kitchen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Kitchen.h; path = "../../../Downloads/iOS-Student-PizzaRestaurant-master/PizzaRestaurant/Kitchen.h"; sourceTree = "<group>"; };
 		046926532438A49A004DD83A /* PizzaRestaurant-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PizzaRestaurant-Prefix.pch"; path = "../../../Downloads/iOS-Student-PizzaRestaurant-master/PizzaRestaurant/PizzaRestaurant-Prefix.pch"; sourceTree = "<group>"; };
 		046926542438A49B004DD83A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "../../../Downloads/iOS-Student-PizzaRestaurant-master/PizzaRestaurant/main.m"; sourceTree = "<group>"; };
-		046926552438A49B004DD83A /* Kitchen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Kitchen.m; path = "../../../Downloads/iOS-Student-PizzaRestaurant-master/PizzaRestaurant/Kitchen.m"; sourceTree = "<group>"; };
 		046926582438A8F5004DD83A /* Pizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
 		046926592438A8F5004DD83A /* Pizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+		046926C8243DE4D8004DD83A /* NoAnchovies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoAnchovies.h; sourceTree = "<group>"; };
+		046926C9243DE4D8004DD83A /* NoAnchovies.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoAnchovies.m; sourceTree = "<group>"; };
+		046926CC243DEE62004DD83A /* AlwaysLargePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlwaysLargePizza.h; sourceTree = "<group>"; };
+		046926CD243DEE62004DD83A /* AlwaysLargePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlwaysLargePizza.m; sourceTree = "<group>"; };
+		046926CF243DEF61004DD83A /* KitchenDelegation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KitchenDelegation.h; sourceTree = "<group>"; };
+		046926D0243DEF61004DD83A /* KitchenDelegation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KitchenDelegation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +70,16 @@
 		0469264A2438A468004DD83A /* Lab8 */ = {
 			isa = PBXGroup;
 			children = (
-				046926522438A49A004DD83A /* Kitchen.h */,
-				046926552438A49B004DD83A /* Kitchen.m */,
 				046926542438A49B004DD83A /* main.m */,
 				046926532438A49A004DD83A /* PizzaRestaurant-Prefix.pch */,
 				046926582438A8F5004DD83A /* Pizza.h */,
 				046926592438A8F5004DD83A /* Pizza.m */,
+				046926C8243DE4D8004DD83A /* NoAnchovies.h */,
+				046926C9243DE4D8004DD83A /* NoAnchovies.m */,
+				046926CC243DEE62004DD83A /* AlwaysLargePizza.h */,
+				046926CD243DEE62004DD83A /* AlwaysLargePizza.m */,
+				046926CF243DEF61004DD83A /* KitchenDelegation.h */,
+				046926D0243DEF61004DD83A /* KitchenDelegation.m */,
 			);
 			path = Lab8;
 			sourceTree = "<group>";
@@ -132,8 +142,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0469265A2438A8F5004DD83A /* Pizza.m in Sources */,
+				046926CE243DEE62004DD83A /* AlwaysLargePizza.m in Sources */,
+				046926D1243DEF61004DD83A /* KitchenDelegation.m in Sources */,
+				046926CA243DE4D8004DD83A /* NoAnchovies.m in Sources */,
 				046926562438A49B004DD83A /* main.m in Sources */,
-				046926572438A49B004DD83A /* Kitchen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
